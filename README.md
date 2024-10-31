@@ -33,8 +33,23 @@ magic.close() # don't forget about this
 
 `python-libmagic` works on CPython 2.7/3.3+ and PyPy.
 
+Before installing the python library via pip, it is required to install
+the libmagic native library. 
+
+To install libmagic using Advanced Package Tool (APT)
+
 ```bash
 $ apt-get install libmagic-dev
+```
+
+To install libmagic using Homebrew (brew)
+```bash
+$ brew install libmagic
+```
+
+To install the python library using pip
+
+```bash
 $ pip install python-libmagic
 ```
 
